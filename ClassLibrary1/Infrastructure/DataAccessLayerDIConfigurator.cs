@@ -18,13 +18,6 @@ namespace OnlineStore.DAL.Infrastructure
             services.AddScoped<IAccountRepository, AccountRepository>();
             services.AddScoped<IOrderRepository, OrderRepository>();
             services.AddScoped<IUnitOfWork, UnitOfWork>();
-
-            var mapperConfiguration = new MapperConfiguration(config =>
-            {
-                config.AddProfile(new MapperConfigurator(config));
-            });
-
-            services.AddSingleton(mapperConfiguration.CreateMapper());
         }
     }
 }

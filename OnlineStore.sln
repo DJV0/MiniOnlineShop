@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OnlineStore.UI", "ConsoleAp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OnlineStore.DAL", "ClassLibrary1\OnlineStore.DAL.csproj", "{EB8DC7DF-4587-4F41-9323-C6FBE483245A}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestProject1", "TestProject1\TestProject1.csproj", "{1B72D788-88BE-4A3A-A0BC-67A94981D85E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestProject", "TestProject1\TestProject.csproj", "{1B72D788-88BE-4A3A-A0BC-67A94981D85E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineStore.BLL", "OnlineStore.BLL\OnlineStore.BLL.csproj", "{60B3DC1A-E35D-4FAF-8D68-33FC031EF09B}"
 EndProject

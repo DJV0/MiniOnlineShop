@@ -6,9 +6,9 @@ using System.Text;
 
 namespace OnlineStore.DAL.Infrastructure
 {
-    public class MapperConfigurator : Profile
+    public class DataAccessLayerMapperConfigurator : Profile
     {
-        public MapperConfigurator(IMapperConfigurationExpression configExpression)
+        public DataAccessLayerMapperConfigurator(IMapperConfigurationExpression configExpression)
         {
             configExpression.CreateMap<Product, Product>();
             configExpression.CreateMap<Account, Account>();
