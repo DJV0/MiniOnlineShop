@@ -9,7 +9,7 @@ using System.Text;
 
 namespace OnlineStore.DAL.Infrastructure
 {
-    public class DataAccessLayerDIConfigurator 
+    public static class DataAccessLayerDIConfigurator 
     {
         public static void ConfigureServices(IServiceCollection services)
         {
